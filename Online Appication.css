@@ -1,0 +1,118 @@
+body {
+    background-image: url("background\ kids.jpg");
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 100px;
+    margin-left: 20%;
+    margin-top: -8px;
+
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+h3 {
+    font-size: 50px;
+    margin-left: 30%;
+    margin-top: -25%;
+}
+
+Form {
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.img-fluid {
+    width: 80px;
+    height: 60px;
+}
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+#logo {
+    margin-top: -10px;
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    background-color:blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    border-radius: 3px;
+}
